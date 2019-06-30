@@ -1,0 +1,386 @@
+* {
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+body {
+  background-color: #e6e3e6;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.clearfix {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.main-name {
+  font-family: 'Oswald', sans-serif;
+}
+
+.nav-bar ul li a{
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.port-section {
+  background-color: #fff;
+}
+
+.portfolio {
+  text-align: center;
+}
+
+.port-title {
+  font-size: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}
+
+.port-pic-title {
+  font-family: 'Oswald', sans-serif;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}
+
+.cont-mail a {
+  text-decoration: none;
+  color: #000;
+}
+
+footer .bottom-bar ul li a{
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+}
+
+
+
+
+/* ---> Media Query <--- */
+@media (min-width: 320px) {
+  
+  /* -> Header <- */
+  .main-header, footer .nav-bar {
+    text-align: center;
+  }
+
+  .main-name {
+    margin: 0.625rem 0;
+    padding: 0.625rem;
+  }
+
+  .nav-bar ul li  {
+    background-color: #fff;
+    margin: 0.625rem 0;
+    padding: 0.9375rem 0;
+  }
+
+  /* -> Introduction <- */
+  .intro {
+    text-align: center;
+  }
+
+  .intro-pic {
+    margin-top: 1.875rem;
+    width: 80%;
+  }
+
+  .intro-text {
+    font-size: 1.125rem;
+    padding: 0 0.3125rem;
+  }
+
+  /* -> Portfolio <- */
+  .port-title {
+    margin: 3.125rem 0 1.875rem 0;
+    padding: 2rem 0 1rem 0;
+  }
+
+  .port-pic {
+    width: 80%;
+  }
+
+  .port-pic-title, .port-text {
+    margin: 0.625rem 0;
+    padding: 0 0.625rem;
+  }
+
+  .port-text {
+    margin-bottom: 3.125rem;
+  }
+
+  .last-picture-port {
+    padding-bottom: 1.875rem;
+  }
+
+  /* -> Footer <- */
+  footer {
+    height: 3.125rem;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  footer .main-name {
+    font-size: 0.875rem;
+    float: left;
+    line-height: 3.125rem;
+  }
+
+  footer .nav-bar {
+    font-size: 0.875rem;
+  }
+
+  footer .footer-bottom{
+    display: none;
+  }
+
+  .back-top {
+    font-size: 0.875rem;
+    line-height: 5.625rem;
+    float: right;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+  }
+}
+
+
+
+
+/* ---> Tablet Version <---*/  
+@media (min-width:768px) {
+  /* --> Header <-- */
+
+  .nav-bar ul li {
+    display: inline-block;
+  }
+
+  .nav-bar ul li a {
+    padding: 2.5rem;
+    background-color:#e6e3e6;
+    font-size: 1.25rem;
+  }
+
+   /* -> Introduction <- */
+  .intro-pic {
+    margin-top: 1.875rem;
+    width: 40%;
+    float: right;
+  }
+
+  .intro-text {
+    float: left;
+    width: 60%;
+    text-align: left;
+    padding-right: 1.875rem;
+  }
+
+  /* --> Portfolio <-- */
+  .port-pic {
+    width: 70%;
+  }
+
+  .port {
+    float: left;
+    width: 45%;
+    text-align: center;
+    margin-left: 1.25rem;
+  }
+
+  /* --> Contact <-- */
+  .contact {
+    font-size: 1.25rem;
+    padding: 0 4rem;
+  }
+
+  .contact-title {
+    margin-top: 4rem;
+  }
+
+  /* --> Footer <-- */
+  footer {
+    width: 100%;
+    height: 6.25rem;
+  }
+
+  .bottom-bar ul li {
+    margin: 0;
+    padding: 0;
+  }
+
+  .bottom-bar ul li a {
+    margin-left: 1.875rem;
+    padding: 0;
+  }
+
+  footer .footer-bottom{
+    display: inline-block;
+    line-height: 5.625rem;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  footer .main-name {
+    float: left;
+    font-size: 1rem;
+    margin-right: 21.0625rem;
+  }
+
+  .back-top {
+    display: none;
+  }
+}
+
+
+
+
+/* ---> Laptop Version <--- */
+@media (min-width: 1024px) {
+  /* --> Header <-- */
+  .header {
+    width: 100%;
+    height: 6.25rem;
+  }
+
+  .main-name {
+    margin: 0;
+    padding: 0;
+    float: left;
+    line-height: 6.25rem;
+  }
+
+  .nav-bar ul {
+    float: right;
+    margin: 0;
+    padding: 0;
+    line-height: 6.25rem;
+  }
+
+  .nav-bar ul li {
+    padding: 0;
+    background-color: #e6e3e6;
+    margin-left: 2.5rem;
+  }
+
+  .nav-bar ul li a {
+    padding: 0;
+    margin: 0;
+  }
+
+  nav ul li a:hover {
+    background-color: white;
+    padding: 0.625rem;
+    transition: .2s;
+  }
+
+  /* --> Introduction <-- */
+  .intro-text {
+    padding-right: 5.33rem;
+  }
+
+  .intro-pic {
+    width: 30%;
+  }
+
+  .intro-pic:hover {
+    transform: rotate(720deg);
+    transition: 2s;
+  }
+
+  /* --> Portfolio <-- */
+  .port {
+    float: left;
+    width: 30%;
+    text-align: center;
+    margin-left: 1.4rem;
+  }
+  
+  .port-pic {
+    width: 100%;
+  }
+
+  .port:hover {
+    transform: scale(1.1);
+    transition: .3s;
+  }
+
+  /* --> Contact <-- */
+  .contact {
+    font-size: 1.25rem;
+    padding: 0 11rem;
+  }
+
+  .cont-mail {
+    padding-bottom: 3.125rem;
+  }
+
+  /* --> Footer <-- */
+  .footer {
+    width: 100%;
+    height: 100px;
+  }
+
+  footer .main-name {
+    margin: 0;
+    padding: 0;
+    float: left;
+    line-height: 6.25rem;
+    font-size: 1rem;
+  }
+
+  .bottom-bar ul {
+    float: right;
+    margin: 0;
+    padding: 0;
+    line-height: 6.25rem;
+  }
+
+  .bottom-bar ul li {
+    padding: 0;
+    background-color: #e6e3e6;
+    margin-left: 2.5rem;
+    font-size: 1rem;
+  }
+
+  .bottom-bar ul li a {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+
+
+
+@media (min-width: 1441px) {
+  .intro-text {
+    padding-right: 8rem;
+    line-height: 2.0;
+  }
+
+  .port {
+    width: 29%;
+    margin-left: 2.5rem;
+  }
+
+  .contact {
+    padding: 0 20rem;
+  }
+}

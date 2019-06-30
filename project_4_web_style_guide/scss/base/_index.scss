@@ -1,0 +1,11 @@
+// **************************************
+// base/_index.scss
+// used to import individual components
+// **************************************
+
+// import the normalize component
+@import 'normalize';
+
+// NOTE: import other components here:
+@import '../utilities';
+@import 'base';

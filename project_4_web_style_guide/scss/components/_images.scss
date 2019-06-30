@@ -1,0 +1,29 @@
+.img--logo {
+  @extend %img-center;
+  @include mq($tablet) {margin: 20px auto 50px;}
+}
+
+.img--frame {
+  @extend %img-center;
+  width: 95%;
+  padding: 10px;
+  border:  solid 2px lightgray;
+}
+
+
+.img--avatar {
+  @extend %img-center;
+  @include mq($tablet) {
+    width: 40%;
+  }
+
+  &:nth-child(1) {
+    @include mq($tablet) {width: 50%};
+    @include mq($laptop) {width: 45%};
+  }
+
+  &:nth-child(2) {
+    @include mq($tablet) {margin-top: 30%;}
+    @include mq($laptop) {margin-top: 10%;}
+  }
+}

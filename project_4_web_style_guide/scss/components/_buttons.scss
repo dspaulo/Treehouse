@@ -1,0 +1,15 @@
+.btn--default {@include button($secondary-color)};
+.btn--success {@include button($success)};
+.btn--error {@include button($error)};
+.btn--warning {@include button($warning)};
+.btn--info {@include button($info)};
+
+@include mq($tablet) {
+  .btn--default:nth-child(1),
+  .btn--success,
+  .btn--error,
+  .btn--warning,
+  .btn--info {
+    width: 15%;
+  }
+}

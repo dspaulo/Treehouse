@@ -1,0 +1,14 @@
+.form {
+  @include flex-column(100%);
+}
+
+.form__label--hidden {
+  display: none;
+}
+
+.form__input {
+  @extend %form-input;
+  @include mq($laptop) {
+    width: 90%;
+  }
+}

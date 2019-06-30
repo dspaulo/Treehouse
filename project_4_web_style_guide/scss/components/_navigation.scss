@@ -1,0 +1,19 @@
+
+.nav {
+  @include flex-column(300px);
+  list-style: none;
+  padding-left: unset;
+  margin-top: 8%;
+
+  @include mq($tablet) {
+    @include flex-row(70%);}
+}
+
+.nav li {
+  @extend %nav-styles;
+}
+
+.nav a {
+  @extend %a-styles;
+  color: $black;
+}

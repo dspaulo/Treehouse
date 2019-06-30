@@ -1,0 +1,42 @@
+//---Flexbox Mixins---//
+@mixin flex-column($width) {
+  display: flex;
+  flex-direction: column;
+  width: $width;
+}
+
+@mixin flex-row($width) {
+  display: flex;
+  flex-direction: row;
+  width: $width;
+
+}
+
+@mixin row-just-margin($content) {
+  flex-direction: row;
+  justify-content: $content;
+  margin: 0 auto;
+}
+
+//---Button---//
+@mixin button($color) {
+  @extend %btn-grid-style;
+  padding: 15px;
+  border: none;
+  background-color: $color;
+  text-transform: uppercase;
+}
+
+//--Grid Color--//
+@mixin grid-styles($color) {
+  background-color: $color;
+  padding: 10px;
+  @extend %btn-grid-style;
+}
+
+//--Media Query--//
+@mixin mq($size) {
+  @media (min-width: $size) {
+    @content;
+  }
+}

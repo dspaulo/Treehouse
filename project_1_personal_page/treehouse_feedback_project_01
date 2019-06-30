@@ -1,0 +1,63 @@
+Elements that Met Expectations
+
+Include required files
+Project includes the following:
+index.html
+styles.css
+a new profile image
+a new background image
+
+Reviewer Comments:
+Great start Paulo, you have submitted all your files and have included new profile and background images. I might add a stunning background image!
+
+
+Links
+
+All social media links on the page lead to external websites.
+Deleted social media icons if a link is not provided.
+Edit the href value of the Home link so it navigates to index.html.
+Deleted the ‘Experience’ navigation link if no additional pages have been created.
+
+Reviewer Comments:
+Well done you've removed the social media link you didn't need and all your social media links lead to external websites.
+
+However, your external Social Media links all open in the same tab/window as your site. It's best practice to have all external links to open in a new tab/window. This is so you don't lose traffic to your site by forcing the user to use the Back button of the browser, which most users will not be bothered to do. To ensure this doesn't happen you need to add the attribute Target with the value underscore blank. Example:
+<a href="https://www.twiter.com" target="_blank">Twitter</a>
+Great job on your nav removing the additional li element you didn't need and for editing the href attribute's value to the file name of index.html
+
+Added a photo and background
+
+New profile image is in place, and the image file size is under 400 KB.
+"profile-image" class is still attached to profile <img> tag.
+New profile image's alt attribute text has been updated.
+New background image is in place, and the image file size is under 1 MB.
+
+Reviewer Comments:
+Good, you've kept your image files within the required file size limit. Good job on keeping the class profile-image intact and changing the value of the alt attribute's text for your profile image.
+
+Changed placeholder text for name, background and goals
+All the placeholder text has been changed for:
+Name
+Background section
+Goals section
+
+Reviewer Comments:
+Excellent job on replacing all the placeholding text with your own very engaging and enthusiastic text about you.
+
+Oh, you sneaky dev you, awesome job on adding the transition property to the .card rule and the scale function to the hover state!!!
+
+Valid code
+
+HTML and CSS code passes the validation.
+HTML and CSS errors are accepted exceptions.
+
+Reviewer Comments:
+I am happy to say your index.html passed the HTML Validator and your styles.css passed the CSS Validator.
+
+
+
+
+Overall Comments
+Congratulations on your pass mark of Meets Expectations Paulo!
+
+Your text was very engaging and added to the .card rule is definitely flashing some serious skills, so much so I was a little disappointed you didn't go for Exceeds and show off with an additional page. However with one page only it was still very impressive.

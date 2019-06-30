@@ -1,0 +1,27 @@
+.card {
+  @include flex-column(100%);
+}
+
+
+.link {
+  @extend %a-styles;
+  font-weight: bold;
+  color: $secondary-color;
+  width: 100%;
+}
+
+.blockquote {
+  @extend %blockquote;
+}
+
+.headline--primary {
+  padding: 0 20px;
+}
+
+
+.headline--secondary {
+  font-weight: bold;
+  padding-left: 10px;
+  margin: 10px 0 20px;
+  color: rgba(0, 0, 0, .4)
+};

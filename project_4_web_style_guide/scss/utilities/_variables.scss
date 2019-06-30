@@ -1,0 +1,32 @@
+//---Fonts---//
+$font-primary: 'Lato', sans-serif;
+$font-secondary: 'Fjalla One', sans-serif;
+
+//---Colors---//
+$white: white;
+$black: black;
+$primary-color: #5CE3C3;
+$secondary-color: #4DDEFF;
+
+
+//---Buttons---//
+$default: $secondary-color;
+$success: rgba(0, 128, 0, 0.75);
+$error: rgba(255, 0, 0, 0.75);
+$warning: rgba(255, 81, 0, 0.75);
+$info: rgba(121, 15, 182, 0.75);
+
+//---Grid Colors---//
+$color-col-12: $primary-color;
+$color-col-6: rgba(20, 98, 161, 0.753);
+$color-col-4: $secondary-color;
+$color-col-3: rgb(205, 161, 255);
+$color-col-5: rgba(60, 221, 60, 0.726);
+$color-col-7: rgba(255, 93, 120, 0.76);
+$color-col-8: rgba(255, 136, 0, 0.842);
+
+//---Media Querys---//
+$mobile-large: 425px;
+$tablet: 768px;
+$laptop: 1024px;
+$laptop-large: 1400px;
